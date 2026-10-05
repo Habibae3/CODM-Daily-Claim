@@ -2,14 +2,14 @@ name: CODM Daily Claim
 
 on:
   schedule:
-    - cron: "30 6 * * *"   # daily 06:30 UTC (~12:00 IST). Change is if you want ig
+    - cron: "10 0 * * *"   # daily 00:10 UTC (~05:40 IST)
   workflow_dispatch:      
 
 permissions:
   contents: write
 
 env:
-  USERNAME: "username"   # your codm id/username
+  USERNAME: "7394201521188962306"   # your codm id/username
   REGION: "auto"             # auto mostly works. if it doesn't then manually try entering your region
 
 jobs:
